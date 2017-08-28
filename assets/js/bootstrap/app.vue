@@ -5,26 +5,11 @@
 </template>
 
 <script>
-  export default {
-    name: 'Application',
-    data () {
-      return {
-
-      }
-    },
-    components: {
-
-    },
-    props: {
-
-    },
-    computed: {
-
-    },
-    methods: {
-
-    }
-  }
+  import Vue from 'vue'
+  
+  export default Vue.extend({
+    name: 'Application'
+  })
 </script>
 
 <style lang="scss">

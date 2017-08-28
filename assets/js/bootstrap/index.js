@@ -3,9 +3,7 @@ import App from './app'
 import store from './store'
 import router from './router'
 
-let Root = Vue.extend(App)
-
-export default new Root({
+export default new App({
   el: '#app',
   store,
   router

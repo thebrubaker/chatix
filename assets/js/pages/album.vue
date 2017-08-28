@@ -61,7 +61,7 @@
 </template>
 
 <script>
-  import AlbumLayout from '../layouts/album'
+  import AlbumLayout from 'js/layouts/album'
   
   export default {
     data () {

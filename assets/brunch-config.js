@@ -54,6 +54,7 @@ exports.config = {
     autoRequire: {
       "js/app.js": ["js/app"]
     }
+    // nameCleaner: path => path.replace(/^components/, )
   },
 
   npm: {

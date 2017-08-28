@@ -67,5 +67,44 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    border-right: 1px solid #eee;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: .8rem;
 
+    .nav {
+      margin-bottom: 20px;
+    }
+
+    .nav-item {
+      width: 100%;
+    }
+
+    .nav-item + .nav-item {
+      margin-left: 0;
+    }
+
+    .nav-link {
+      color: #445963;
+      border-radius: 0;
+    }
+
+    .nav-link.active {
+      color: inherit;
+      background-color: #EEEEEE;
+    }
+
+    .nav-link:hover {
+      background-color: darken(#EEEEEE, 5);
+    }
+  }
 </style>

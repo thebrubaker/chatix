@@ -156,7 +156,7 @@
 </template>
 
 <script>
-  import DashboardLayout from '../layouts/dashboard'
+  import DashboardLayout from 'js/layouts/dashboard'
   export default {
     name: 'HomePage',
     data () {

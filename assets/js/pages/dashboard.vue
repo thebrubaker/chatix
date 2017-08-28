@@ -156,7 +156,7 @@
 </template>
 
 <script>
-  import DashboardLayout from '../layouts/dashboard'
+  import DashboardLayout from 'js/layouts/dashboard'
   export default {
     name: 'HomePage',
     data () {
@@ -180,5 +180,13 @@
 </script>
 
 <style lang="scss">
+   /* Placeholders */
+  .placeholders {
+    padding-bottom: 3rem;
+  }
 
+  .placeholder img {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
 </style>
